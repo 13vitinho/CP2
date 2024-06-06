@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GS Victor Maciel RM98384, Bernardo Rocha RM99209" id="590D2AC2-7A50-B60A-AE1D-3C70EE0DF4A8" version="3.5">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 16:54:36 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>590D2AC2-7A50-B60A-AE1D-3C70EE0DF4A8</designId>
+</OSDM_Design>

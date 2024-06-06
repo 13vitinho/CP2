@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BB8F2EF-79FE-3518-AE37-F47A97D6030F" name="Localizacao">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:37:42 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Localizacao" id="A9B67DF1-B502-2914-CB10-9CFDA5B354D7">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:37:49 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome_Site" id="8C35BB15-51DC-AB03-C4CF-A86ADCA42AB7">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:38:01 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Regiao" id="7C82B929-EBFA-2C74-6F60-0225AE3D7CF2">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:38:22 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Sensor" id="C9D7A073-A3B6-2B06-BD48-B65538342A61">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:43:03 UTC</createdTime>
+<generatorID>71CF3589-372A-8911-6AFB-B9B158FBBB84</generatorID>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<referedAttribute>6AD4FDB6-B4F7-FA7A-46B1-0AC67A1EE848</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC246C5D-4597-75B0-D958-78F117C7B2C6" name="Localizacao PK">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:37:59 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9B67DF1-B502-2914-CB10-9CFDA5B354D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

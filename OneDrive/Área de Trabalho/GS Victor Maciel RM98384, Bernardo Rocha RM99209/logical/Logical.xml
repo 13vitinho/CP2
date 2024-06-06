@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8EC25C9F-1733-CB74-6ADA-EEB9C7B67508" mainViewID="4CAC0235-C9E7-DDA6-7727-1FC38D5FF8DD">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 16:54:36 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7543F33-27A3-01D1-EBF3-395A41B67D87" name="Qualidade_da_Agua">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:18:58 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Qualidade" id="00856D70-197E-6B23-B72A-DD6AE483085B">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:19:06 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Coleta" id="F42EE587-CA85-8BA8-7714-DF282EC51A0E">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:19:42 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pH" id="AECAE4BD-4504-F2AF-6A2D-11254CF410F6">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:20:05 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Sensor" id="F86CA61D-E14C-4F32-88F7-FA237FDBB18F">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:20:58 UTC</createdTime>
+<generatorID>326FC054-418E-9AA7-314C-A1B47F4CF910</generatorID>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<referedAttribute>6AD4FDB6-B4F7-FA7A-46B1-0AC67A1EE848</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Medicao" id="E03AFBD8-1383-4BF9-1131-C3A7B99832C1">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:35:46 UTC</createdTime>
+<generatorID>EEBA50D8-A1D3-6327-9A00-E1ADE931687F</generatorID>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<referedAttribute>D62C17A4-A32A-649D-846A-8C088806DDE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FEE53C20-1A34-C809-AC30-0B3B677EDA2D" name="Medicao PK">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:19:40 UTC</createdTime>
+<ownerDesignName>GS Victor Maciel RM98384, Bernardo Rocha RM99209</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00856D70-197E-6B23-B72A-DD6AE483085B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
