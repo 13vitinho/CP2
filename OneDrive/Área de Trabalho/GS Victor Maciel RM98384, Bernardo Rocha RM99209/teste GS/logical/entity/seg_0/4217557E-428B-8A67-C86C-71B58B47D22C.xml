@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4217557E-428B-8A67-C86C-71B58B47D22C" name="Sensor">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 18:58:52 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Sensor" id="6AD4FDB6-B4F7-FA7A-46B1-0AC67A1EE848">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 18:59:04 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Instalacao" id="6FA00271-6F42-6B30-2733-250BFD76AE12">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:01:04 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="AF8C8880-3A85-FC6E-5AE2-93B9D8868266">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:02:06 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Qualidade" id="BD0E38F8-B208-12FB-6697-ECF6DC6BCA6B">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:21:32 UTC</createdTime>
+<generatorID>326FC054-418E-9AA7-314C-A1B47F4CF910</generatorID>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<referedAttribute>00856D70-197E-6B23-B72A-DD6AE483085B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Localizacao" id="BFC4BCDA-7C4F-A7E0-399D-BEB645ACC47B">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:42:54 UTC</createdTime>
+<generatorID>71CF3589-372A-8911-6AFB-B9B158FBBB84</generatorID>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<referedAttribute>A9B67DF1-B502-2914-CB10-9CFDA5B354D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5016475-A472-9D06-38ED-442C213E94B9" name="Sensor PK">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:00:05 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AD4FDB6-B4F7-FA7A-46B1-0AC67A1EE848</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

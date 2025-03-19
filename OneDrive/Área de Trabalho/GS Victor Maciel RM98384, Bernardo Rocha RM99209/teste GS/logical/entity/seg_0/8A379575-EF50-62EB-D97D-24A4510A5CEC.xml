@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A379575-EF50-62EB-D97D-24A4510A5CEC" name="Medicao">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:24:18 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Medicao" id="D62C17A4-A32A-649D-846A-8C088806DDE4">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:24:35 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Qualidade_Agua" id="9A2EB75E-782D-A59D-719A-82F74A86B6D2">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:24:53 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor_Medido" id="C852F71A-9C9B-8509-D8A5-4D0CE8F27330">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:25:10 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Qualidade" id="BA06DD16-994C-D9F2-5C27-7F5E4E34FFB8">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:35:25 UTC</createdTime>
+<generatorID>EEBA50D8-A1D3-6327-9A00-E1ADE931687F</generatorID>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<referedAttribute>00856D70-197E-6B23-B72A-DD6AE483085B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Poluentes" id="85272826-BF3C-C35E-8E05-A219F1A10DDE">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:46:38 UTC</createdTime>
+<generatorID>7D0A6324-A976-088B-6031-B884EB7A216B</generatorID>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<referedAttribute>8C6380E6-D8D5-CAFD-CC94-318D134D9BE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2AF87A8-90B7-3558-A6B5-DEFC5384C8B8" name="Poluentes PK">
+<createdBy>victo</createdBy>
+<createdTime>2024-06-06 19:24:49 UTC</createdTime>
+<ownerDesignName>teste GS</ownerDesignName>
+<engineerTo>
+<item key="A7B40CFF-D35E-2174-BCA0-63FF791EF804" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D62C17A4-A32A-649D-846A-8C088806DDE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
